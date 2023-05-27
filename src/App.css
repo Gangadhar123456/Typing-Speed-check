@@ -1,3 +1,6 @@
+* {
+  background-color: rgb(211, 149, 34);
+}
 .App {
   text-align: center;
 }
@@ -36,3 +39,42 @@
     transform: rotate(360deg);
   }
 }
+.Typing-content{
+  background-color: yellow;
+  width: 75%;
+  height: 25vh;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #111111;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+
+.timer-box {
+  background-color: aqua;
+  width: 21vw;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #111111;
+  text-align: center;
+  font-size: 28px;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .timer-box {
+    font-size: 13px;
+  }
+}
+
+
+
